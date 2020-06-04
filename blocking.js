@@ -11,7 +11,7 @@ setTimeout(sayHi, 3500, 'Gagandeep');
 setTimeout(sayHi, 1500, 'Bob');
 sayHi('Ilia');
 
-// Callback
+// Callback 
 const farewell = name => console.log(`Goodbye, ${name}`);
 const greeting = (name, callback) => {
   console.log(`Hello, ${name}`);
